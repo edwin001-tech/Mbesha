@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mbesha">
+        <activity android:name=".BuyAirtime"></activity>
+        <activity android:name=".WithdrawCash" />
+        <activity android:name=".SendMoney" />
+        <activity android:name=".SafListActivity" />
+        <activity android:name=".MPESAListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

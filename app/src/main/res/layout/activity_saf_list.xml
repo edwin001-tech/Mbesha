@@ -5,16 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context=".SafListActivity">
 
     <TextView
-        android:id="@+id/mpesa"
+        android:id="@+id/mbank"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/black"
-        android:text="M-PESA"
+        android:layout_marginTop="5dp"
+        android:text="M-Banking Sevices"
         android:textColor="@color/white"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,16 +21,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/safaricom"
+        android:id="@+id/myacct"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:background="@color/black"
-        android:text="Safaricom+"
+        android:text="My Account"
         android:textColor="@color/white"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mpesa" />
+        app:layout_constraintTop_toBottomOf="@+id/mbank" />
 </androidx.constraintlayout.widget.ConstraintLayout>

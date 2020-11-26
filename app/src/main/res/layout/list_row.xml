@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".MPESAListActivity">
+    android:background="@color/black">
 
     <TextView
         android:id="@+id/send"
@@ -15,7 +14,7 @@
         android:layout_marginTop="5dp"
         android:text="Send Money"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +27,7 @@
         android:layout_marginTop="5dp"
         android:text="Withdraw Cash"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/send" />
@@ -41,7 +40,7 @@
         android:layout_marginTop="5dp"
         android:text="Buy Airtime"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/withdraw" />
@@ -54,7 +53,7 @@
         android:layout_marginTop="5dp"
         android:text="Loans And Savings"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buy" />
@@ -67,7 +66,7 @@
         android:layout_marginTop="5dp"
         android:text="Lipa na M-PESA"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loans" />
@@ -76,12 +75,14 @@
         android:id="@+id/account"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:text="My Account"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lipa" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
