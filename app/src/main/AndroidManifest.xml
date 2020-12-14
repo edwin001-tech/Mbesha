@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mbesha">
-        <activity android:name=".BuyAirtime"></activity>
+        <activity android:name=".enterphone"></activity>
+        <activity android:name=".entername" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".LipaMPESA" />
+        <activity android:name=".LoansSavings" />
+        <activity android:name=".BuyAirtime" />
         <activity android:name=".WithdrawCash" />
         <activity android:name=".SendMoney" />
         <activity android:name=".SafListActivity" />

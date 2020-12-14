@@ -53,6 +53,27 @@ public class MPESAListActivity extends AppCompatActivity {
             }
         });
 
+        loans.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MPESAListActivity.this, LoansSavings.class));
+            }
+        });
+
+        lipa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MPESAListActivity.this, LipaMPESA.class));
+            }
+        });
+
+        myaccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MPESAListActivity.this, MyAccount.class));
+            }
+        });
+
 
     }
 }
