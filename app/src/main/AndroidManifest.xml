@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mbesha">
-        <activity android:name=".enterphone"></activity>
+        <activity android:name=".ATMagentno"></activity>
+        <activity android:name=".enterAgentno" />
+        <activity android:name=".enterphone" />
         <activity android:name=".entername" />
         <activity android:name=".MyAccount" />
         <activity android:name=".LipaMPESA" />
