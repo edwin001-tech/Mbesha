@@ -16,8 +16,8 @@ public class SendMoney extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_money);
 
-        searchcontact = findViewById(R.id.searchContact);
-        enterphone = findViewById(R.id.enterPhone);
+        searchcontact = findViewById(R.id.airtimesearchContact);
+        enterphone = findViewById(R.id.airtimeenterPhone);
 
         searchcontact.setOnClickListener(new View.OnClickListener() {
             @Override
