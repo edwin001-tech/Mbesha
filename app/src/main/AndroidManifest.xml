@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mbesha">
-        <activity android:name=".buyOtherNo"></activity>
+        <activity android:name=".sendtoMshwari"></activity>
+        <activity android:name=".Mshwari" />
+        <activity android:name=".buyOtherNo" />
         <activity android:name=".airtimeAMT" />
         <activity android:name=".ATMagentno" />
         <activity android:name=".enterAgentno" />

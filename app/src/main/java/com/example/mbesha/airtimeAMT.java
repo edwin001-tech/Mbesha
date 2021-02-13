@@ -17,8 +17,8 @@ public class airtimeAMT extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_airtime_a_m_t);
 
-        airtimeAMT = findViewById(R.id.airtimeAMTtext);
-        airtimeEdittext = findViewById(R.id.airtimeEditText);
-        airtimeOK = findViewById(R.id.airtimeButton);
+        airtimeAMT = findViewById(R.id.MshwariAMT);
+        airtimeEdittext = findViewById(R.id.sendMshwariEditText);
+        airtimeOK = findViewById(R.id.sendMshwariButton);
     }
 }
